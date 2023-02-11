@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Zadanie 72</title>
+	
+	<script language="JavaScript">
+			var a=prompt("Podaj Wysokosc a=", "");
+			var a_kow=a;
+			var b=prompt("Podaj Szerokosc b=", "");
+			var b_kow=b;
+			
+				for (var i=1;i<=b_kow;i++)
+				{
+				document.write("*");
+				}
+				
+				document.write("<br>");
+				
+				var wiersz_kow="*";
+				
+				for (var i=1;i<=(b-2);i++)
+				{
+				wiersz_kow=wiersz_kow+"&nbsp&nbsp";
+				}
+				
+				wiersz_kow=wiersz_kow+"*";
+				
+				for (var i=1;i<=a_kow;i++)
+				{
+				document.write(wiersz_kow);
+				document.write("<br>");
+				} 
+				
+				for (var i=1;i<=b_kow;i++)
+				{
+				document.write("*");
+				}
+	</script>
+	</head>
+	<body>
+	</body>
+</html>

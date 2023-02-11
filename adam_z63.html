@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Zadanie 63</title>
+	<script language="JavaScript">
+		function V(x){
+		var x;
+		
+		if(x==1 || x.toLowerCase()=='czerwony')
+		{
+		document.write("<font size=7, color=red>Wybrales Kolor Czerwony</font><br>");
+		}
+		
+		if(x==2 || x.toLowerCase()=='niebieski')
+		{
+		document.write("<font size=1, color=blue>Wybrales Kolor Niebieski</font><br>");
+		}}
+	</script>
+	</head>
+	
+	<body>
+		
+		<font color="green" face="Arial" size="8"> Menu </font> <br>
+		<font color="red" face="Arial" size="7"> 1 - Czerwony </font> <br>
+		<font color="blue" face="Arial" size="7"> 2 - Niebieski </font> <br>
+		
+		
+	<form name="form" action="..." onsubmit="V(this.kolor.value);return false">
+	<input size="6" name="kolor">
+	<input TYPE="submit" Value="Sprawdz" >
+	</form>
+	
+
+	</body>
+</html>
